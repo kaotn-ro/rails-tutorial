@@ -64,3 +64,9 @@ gem 'faker',                   '1.7.3'
 gem 'will_paginate',           '3.1.6'
 gem 'bootstrap-will_paginate', '1.0.0'
 gem 'i18n'
+gem 'carrierwave',             '1.2.2'
+gem 'mini_magick',             '4.7.0'
+
+group :production do
+  gem 'fog'
+end
